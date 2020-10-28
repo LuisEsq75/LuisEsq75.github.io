@@ -30,6 +30,12 @@ nav ul  {
     list-style: none;
 }
 
+div ul  {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
 nav li {
 margin-left: 15px;
 }
@@ -86,13 +92,15 @@ section {
 }
 
 footer {
-    padding: 40px;
+    padding: 0px;
+    
 }
 
 footer ul {
-    padding: 0;
+    padding: 20px;
     margin: 0;
     list-style: none;
+    text-align:center;
 }
 .links {
     margin-bottom: 25px;
